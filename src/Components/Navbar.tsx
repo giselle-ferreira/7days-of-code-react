@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import { Header, Menu } from "../Styles";
 
 export function Navbar() {
     return (
@@ -8,31 +8,18 @@ export function Navbar() {
             </div>
             <div>
                 <Menu>
-                    <li>Como Fazer   /</li>
-                    <li>Ofertas   /</li>
-                    <li>Depoimentos   /</li>
-                    <li>Vídeos   /</li>
-                    <li>Meu carrinho</li>
+                    <li><a href="#">Como Fazerㅤ/</a></li>
+                    <li><a href="#">Ofertasㅤ/</a></li>
+                    <li><a href="#">Depoimentosㅤ/</a></li>
+                    <li><a href="#">Vídeosㅤ/</a></li>
+                    <li><a href="#">ㅤMeu carrinho</a></li>
                 </Menu>
             </div>
         </Header>
     )
 }
 
-const Header = styled.header`
-    display: flex;
-    width: 1202px;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding-top: 10px;
-`;
 
-const Menu = styled.ul`
-    display: flex;
-    list-style: none;
-    gap: 10px;
-    font-family: 'Montserrat', sans-serif;
-`;
 
-// font-family: 'Elsie Swash Caps', cursive;
+
+

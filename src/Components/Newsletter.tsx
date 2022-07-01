@@ -1,15 +1,20 @@
+import styled from "styled-components"
+import { Input } from "./Input"
+import { Text1, Text2, HighlightText } from "../Styles";
+
 export function Newsletter() {
     return(
-        <div>
-            <div>
-                <p>Sua casa com as</p>
-                <span>melhores plantas</span>
-                <p>Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.</p>
-            </div>
-
-            <div>
-                <img src="/media/planta1.png" alt="" />
-            </div>
-        </div>
+        <Container>
+                <Text1>Sua casa com as</Text1>
+                <HighlightText>melhores <br />plantas</HighlightText>
+                <Text2>Encontre aqui uma vasta seleção de plantas para decorar a sua casa e torná-lo uma pessoa mais feliz no seu dia a dia. Entre com seu e-mail e assine nossa newsletter para saber das novidades da marca.</Text2>
+                <Input />                
+        </Container>
     )
 }
+
+const Container = styled.div`
+    margin-top: 217px;
+    margin-left: 10%;
+`;
+
