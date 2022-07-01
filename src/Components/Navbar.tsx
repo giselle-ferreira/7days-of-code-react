@@ -1,4 +1,5 @@
-import { Header, Menu } from "../Styles";
+import styled from "styled-components";
+import { Header, Menu, Item } from "../Styles";
 
 export function Navbar() {
     return (
@@ -7,17 +8,19 @@ export function Navbar() {
                 <img src="/media/logo.svg" />
             </div>
             <div>
-                <Menu>
-                    <li><a href="#">Como Fazerㅤ/</a></li>
-                    <li><a href="#">Ofertasㅤ/</a></li>
-                    <li><a href="#">Depoimentosㅤ/</a></li>
-                    <li><a href="#">Vídeosㅤ/</a></li>
-                    <li><a href="#">ㅤMeu carrinho</a></li>
+                <Menu >
+                    <li><Item href="#">Como Fazerㅤ/</Item></li>
+                    <li><Item href="#">Ofertasㅤ/</Item></li>
+                    <li><Item href="#">Depoimentosㅤ/</Item></li>
+                    <li><Item href="#">Vídeosㅤ/</Item></li>
+                    <li><Item href="#">ㅤMeu carrinho</Item></li>
                 </Menu>
             </div>
         </Header>
     )
 }
+
+
 
 
 

@@ -38,6 +38,11 @@ export const Menu = styled.ul`
     cursor: pointer;
 `;
 
+export const Item = styled.a`
+    text-decoration: none;
+    color: #202020;
+`;
+
 // Newsletter
 
 export const Text1 = styled.p`
@@ -81,6 +86,7 @@ export const InputBox = styled.input`
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);    
     font-family: 'Montserrat', sans-serif;
     padding-left: 2.5rem;    
+    outline: none;
 `;
 
 export const Button = styled.button`
