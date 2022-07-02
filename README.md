@@ -20,6 +20,13 @@ Project in React developed under the #7DaysOfCode challenge, promoted by [Alura]
 
 <br/>
 
+>### #Day1
+<img src="https://i.postimg.cc/sDbPSCM5/dia1.gif" />
+
+>### #Day2
+<img src="" />
+
+<br/>
 
 > ## Author 👋
 
