@@ -30,7 +30,7 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <br/>
 
 >### #Day3
-<img src="https://i.postimg.cc/cJ8wZMPr/dia3.gif" />
+<img src="https://i.postimg.cc/V60DKfpp/dia3-v01.gif" />
 
 <br/>
 
