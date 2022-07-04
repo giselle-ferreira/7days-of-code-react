@@ -41,6 +41,10 @@ export const Menu = styled.ul`
 export const Item = styled.a`
     text-decoration: none;
     color: #202020;
+
+    &:hover {
+        font-weight: 700;
+    }
 `;
 
 // Newsletter
@@ -97,5 +101,9 @@ export const Button = styled.button`
     background: #FFCB47;
     border: none;
     cursor: pointer;
+
+    &:hover {
+        background: #fbd77c;
+    }
 `;
 

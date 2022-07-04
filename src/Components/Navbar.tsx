@@ -1,11 +1,10 @@
-import styled from "styled-components";
 import { Header, Menu, Item } from "../Styles";
 
 export function Navbar() {
     return (
         <Header>
             <div>
-                <img src="/media/logo.svg" />
+                <a href="/"><img src="/media/logo.svg" /></a>
             </div>
             <div>
                 <Menu >
