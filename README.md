@@ -1,13 +1,13 @@
 <p align="center">
 <img src="https://i.postimg.cc/cLvbJhnC/casaverde.png"/>
-<h1 align="center">Casa Verde</h1>
-<h3 align="center">(A React App)</h3>
+<h1 align="center">#7DaysOfCode | React App | CasaVerde</h1>
 </p>
 
 <br/>
 
 >## About
-Project in React developed under the #7DaysOfCode challenge, promoted by [Alura](https://www.alura.com.br)  |  https://7daysofcode.io
+Project in React developed for the #7DaysOfCode challenge, promoted by [Alura](https://www.alura.com.br)  |  https://7daysofcode.io <br>
+The design (figma) is provided by Alura with instructions and tips of what and how to do it.  
 
 <br/>
 
@@ -20,6 +20,19 @@ Project in React developed under the #7DaysOfCode challenge, promoted by [Alura]
 
 <br/>
 
+>### #Day1 & #Day2
+<img src="https://i.postimg.cc/sDbPSCM5/dia1.gif" />
+
+<br/>
+
+<small><i>P.s. I did more than what I was supposed to do on day 1 :)</i></small>
+
+<br/>
+
+>### #Day3
+<img src="https://i.postimg.cc/cJ8wZMPr/dia3.gif" />
+
+<br/>
 
 > ## Author 👋
 
