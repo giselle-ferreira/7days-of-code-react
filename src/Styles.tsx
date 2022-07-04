@@ -100,10 +100,14 @@ export const Button = styled.button`
     color: #fff;
     background: #FFCB47;
     border: none;
-    cursor: pointer;
+    cursor: pointer;    
 
     &:hover {
         background: #fbd77c;
+    }
+
+    &:disabled {
+        background: #f7e4b6;
     }
 `;
 
