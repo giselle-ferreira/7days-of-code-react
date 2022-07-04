@@ -20,11 +20,17 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 
 <br/>
 
->### #Day1
+>### #Day1 & #Day2
 <img src="https://i.postimg.cc/sDbPSCM5/dia1.gif" />
 
->### #Day2
-<img src="" />
+<br/>
+
+<small><i>P.s. I did more than what I was supposed to do on day 1 :)</i></small>
+
+<br/>
+
+>### #Day3
+<img src="https://i.postimg.cc/cJ8wZMPr/dia3.gif" />
 
 <br/>
 
