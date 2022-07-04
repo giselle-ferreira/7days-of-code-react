@@ -21,7 +21,7 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <br/>
 
 >### #Day1 & #Day2
-<img src="https://i.postimg.cc/sDbPSCM5/dia1.gif" />
+<img src="https://i.postimg.cc/V60DKfpp/dia3-v01.gif" />
 
 <br/>
 
