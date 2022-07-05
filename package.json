@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.1",
     "phosphor-react": "^1.4.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -15,6 +18,8 @@
     "sweetalert2": "^11.4.19"
   },
   "devDependencies": {
+    "@import-meta-env/unplugin": "^0.1.8",
+    "@types/node": "^18.0.1",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
     "@types/styled-components": "^5.1.25",
