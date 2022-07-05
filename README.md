@@ -16,11 +16,12 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <p align="left">
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" height="27" /> 
 <img alt="StyledComponents" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" height="27" />
+<img alt="EmailJs" src="https://img.shields.io/badge/-EmailJS-orange" height="27" />
 </p>
 
 <br/>
 
->### #Day1 & #Day2
+>### #Day1 & #Day2 - Create two components | create the styles
 <img src="https://i.postimg.cc/sDbPSCM5/dia1.gif" />
 
 <br/>
@@ -29,8 +30,13 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 
 <br/>
 
->### #Day3
+>### #Day3 - Email Validation
 <img src="https://i.postimg.cc/V60DKfpp/dia3-v01.gif" />
+
+<br/>
+
+>### #Day4 - Send emails to the registered emails
+<img src="https://i.postimg.cc/Kz7HhWKc/dia4.gif" />
 
 <br/>
 
