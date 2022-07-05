@@ -7,7 +7,7 @@
 
 >## About
 Project in React developed for the #7DaysOfCode challenge, promoted by [Alura](https://www.alura.com.br)  |  https://7daysofcode.io <br>
-The design (figma) is provided by Alura with instructions and tips of what and how to do it.  
+The design (figma) is provided by Alura with instructions and tips of what and how to do it, each day.  
 
 <br/>
 
