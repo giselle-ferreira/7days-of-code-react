@@ -7,7 +7,7 @@
 
 >## About
 Project in React developed for the #7DaysOfCode challenge, promoted by [Alura](https://www.alura.com.br)  |  https://7daysofcode.io <br>
-The design (figma) is provided by Alura with instructions and tips of what and how to do it.  
+The design (figma) is provided by Alura with instructions and tips of what and how to do it, each day.  
 
 <br/>
 
@@ -17,6 +17,7 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <img alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" height="27" /> 
 <img alt="StyledComponents" src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" height="27" />
 <img alt="EmailJs" src="https://img.shields.io/badge/-EmailJS-orange" height="27" />
+<img alt="SweetAlert" src="https://img.shields.io/badge/-SweetAlert-blueviolet" height="27" />
 </p>
 
 <br/>
