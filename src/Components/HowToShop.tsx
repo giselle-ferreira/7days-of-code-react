@@ -3,7 +3,7 @@ import Ellipse from '/media/ellipse.svg'
 
 export function HowToShop() {
     return(
-        <ShoppingGuide>
+        <ShoppingGuide id="howto">
             <img src="../../public/media/plant2.png" alt="Folhas grandes verdes" />
             <div>
                 <p>Como conseguir</p>

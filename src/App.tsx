@@ -9,21 +9,22 @@ import { Plants } from "./Components/Plants";
 import { HowToShop } from "./Components/HowToShop";
 import { MobileMenu } from "./Components/MobileMenu";
 
+ 
 function App() {
   
   return (
-    <AppContainer>   
-      <Navbar />
-      <MobileMenu />
-      <YellowBg src={bgImg} alt="Forma abstrata amarela" />
+    <AppContainer>
+        <Navbar />
+        <MobileMenu />
+        <YellowBg src={bgImg} alt="Forma abstrata amarela" />
 
-      <CallToActionContainer>
-        <Newsletter />
-        <PlantBg src={bgPlant} alt="Vaso de plantas" />
-      </CallToActionContainer> 
-      
-      <HowToShop />
-      <Plants />
+        <CallToActionContainer>
+          <Newsletter />
+          <PlantBg src={bgPlant} alt="Vaso de plantas" />
+        </CallToActionContainer> 
+        
+        <HowToShop />
+        <Plants />
     </AppContainer>
   )
 }

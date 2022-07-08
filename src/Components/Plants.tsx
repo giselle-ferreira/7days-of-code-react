@@ -16,14 +16,14 @@ export function Plants() {
         .then((response) => {
             setPlants(response.data.plants)
         })
-        .catch((err) => {
+        .catch((err: Error) => {
             setError(err)
         })
     }, [])
 
 
     return(
-        <SaleSection>
+        <SaleSection id="ofertas">
             <div>
                 <p>Conheca nossas</p>
                 <h1>Ofertas</h1>

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const size = {
     mobileSmall: '375px',
     mobileLarge: '425px',
-    medium: '550px',
+    medium: '620px',
     tablet: '768px',
     laptop: '1024px'
 }
@@ -32,6 +32,10 @@ export const PlantBg = styled.img`
   right: 20vw;
   top: 0;
   z-index: -1;
+
+  @media ${device.laptop} {
+        display: none;
+    }
 `;
 
 // Navbar
@@ -67,15 +71,76 @@ export const Item = styled.a`
     }
 `;
 
-export const HamburguerMenu = styled.div`
-    /* display: none; */
+export const OpenMenu = styled.div`
+    display: none;
     margin-right: 30px;
     color: black;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
 
     @media ${device.laptop} {
-            display: block;
-        }
+        display: block;
+    }
+`;
+
+export const CloseMenu = styled.div`
+    display: none;
+    margin-right: 30px;
+    color: black;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    cursor: pointer;
+
+    @media ${device.laptop} {
+        display: block;
+    }
 `;  
+
+export const MobileNavigation = styled.div`
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FFCB47;
+    width: 100%;
+    height: 100vh;
+    z-index: 5;
+   
+    ul {
+        text-align: center;
+        margin: 30% auto;
+    }
+
+    ul li {
+        list-style: none;
+        font-size: 22px;
+        padding-bottom:  30px;
+        font-family: 'Montserrat', sans-serif;
+
+        &:hover {
+            font-weight: 700;
+        }
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: #202020;
+    }
+
+    @media ${device.laptop} {
+        display: block;
+    }
+
+    @media ${device.mobileLarge} {
+        ul {
+            margin: 50% auto;
+        }
+        
+    }
+`;
 
 
 // Newsletter
@@ -94,6 +159,11 @@ export const HighlightText = styled.span`
     font-weight: 700;
     color: #202020;
     margin-top: 12px;
+
+    @media ${device.mobileLarge} {
+        font-size: 60px;
+        line-height: 65px;
+    }
     
 `;
 
@@ -104,6 +174,15 @@ export const Text2 = styled.p`
     color: #202020;
     line-height: 26px;
     margin-top: 20px;
+
+    @media ${device.medium} {
+        width: 70%;
+    }
+
+    @media ${device.mobileLarge} {
+        width: 310px;
+    }
+    
 `;
 
 // Input
@@ -111,7 +190,7 @@ export const Text2 = styled.p`
 export const InputWrapper = styled.div`
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: center;   
 `;
 
 export const InputBox = styled.input`
@@ -125,6 +204,14 @@ export const InputBox = styled.input`
 
     &:hover {
         border: 1px solid #FFCB47; 
+    }
+
+    @media ${device.medium} {
+        width: 220px;
+    }
+
+    @media ${device.mobileLarge} {
+        width: 200px;
     }
 `;
 
@@ -144,6 +231,14 @@ export const Button = styled.button`
     &:disabled {
         background: #f7e4b6;
     }
+
+    @media ${device.medium} {
+        width: 140px;
+    }
+
+    @media ${device.mobileLarge} {
+        width: 110px;
+    }
 `;
 
 // HowToShop
@@ -153,19 +248,7 @@ export const ShoppingGuide = styled.div`
     margin: 82px auto 0 auto;
     width: 995px;
     height: 440px;
-
-    @media ${device.laptop} {
-        max-width: 100%;
-        margin: inherit 0;
-    }    
-
-    @media ${device.tablet} {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-   
+      
     img {
         width: 55%;  
         height: 100%;
@@ -231,6 +314,28 @@ export const ShoppingGuide = styled.div`
             transition: .5s all ease-in-out;
         }
     }
+
+    @media ${device.laptop} {
+        max-width: 100%;
+        margin: inherit 0;
+    }    
+
+    @media ${device.tablet} {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    @media ${device.mobileLarge} {
+        div ul li a {
+            font-size: 18px;
+        }
+
+        div ul li a img {
+            width: 42px;
+        }
+    }
 `;
 
 // Plants
@@ -238,19 +343,7 @@ export const ShoppingGuide = styled.div`
 export const SaleSection = styled.div`
     margin: 44px auto 135px auto;
     display: flex;
-    flex-direction: column;
-
-    @media ${device.tablet} {
-        margin-top: 450px;
-        }
-       
-     @media ${device.medium} {
-        margin-top: 380px;
-        }
-
-     @media ${device.mobileLarge} {
-        margin-top: 300px;
-        }   
+    flex-direction: column;     
 
     p {
         text-align: center;
@@ -262,8 +355,25 @@ export const SaleSection = styled.div`
         margin-top: 12px;
         text-align: center;
         font-size: 82px;
-        font-family: 'Elsie Swash Caps', cursive;
+        font-family: 'Elsie Swash Caps', cursive;    
+     
     }
+
+    @media ${device.tablet} {
+        margin-top: 450px;
+     }
+       
+     @media ${device.medium} {
+        margin-top: 420px;
+    }
+
+     @media ${device.mobileLarge} {
+        margin-top: 300px;
+
+        h1 {
+            font-size: 62px;
+        }
+    } 
 `;
 
 export const CardWrapper = styled.div`
