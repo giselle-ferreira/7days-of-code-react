@@ -14,7 +14,7 @@ export function Newsletter() {
 }
 
 const Container = styled.div`
-    margin-top: 217px;
-    margin-left: 10%;
+    margin-top: 160px;
+    margin-left: 10vw;
 `;
 

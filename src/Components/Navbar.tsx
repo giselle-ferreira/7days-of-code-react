@@ -8,10 +8,10 @@ export function Navbar() {
             </div>
             <div>
                 <Menu >
-                    <li><Item href="#">Como Fazerㅤ/</Item></li>
-                    <li><Item href="#">Ofertasㅤ/</Item></li>
-                    <li><Item href="#">Depoimentosㅤ/</Item></li>
-                    <li><Item href="#">Vídeosㅤ/</Item></li>
+                    <li><Item href="#">Como Fazerㅤ</Item>/</li>
+                    <li><Item href="#">Ofertasㅤ</Item>/</li>
+                    <li><Item href="#">Depoimentosㅤ</Item>/</li>
+                    <li><Item href="#">Vídeosㅤ</Item>/</li>
                     <li><Item href="#">ㅤMeu carrinho</Item></li>
                 </Menu>
             </div>
