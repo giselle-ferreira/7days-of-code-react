@@ -1,1 +1,1 @@
-web: npm run buld
+web: npm run build
