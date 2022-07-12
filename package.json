@@ -4,8 +4,12 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+   
+    "build": "cd casa-verde && npm install && npm run build",
     "preview": "vite preview"
+  },
+  "engines": {
+    "node": "16.13.2"
   },
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
