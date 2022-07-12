@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import { Navbar } from "./Components/Navbar";
-import { Newsletter } from "./Components/Newsletter";
+import { Navbar } from "./Components/Navbar/Navbar";
+import { Newsletter } from "./Components/Newsletter/Newsletter";
 import bgImg from '/media/yellow-bg.svg'
 import bgPlant from '/media/plant1.png'
 import { YellowBg } from "./Styles";
 import { PlantBg } from "./Styles";
-import { Plants } from "./Components/Plants";
-import { HowToShop } from "./Components/HowToShop";
-import { MobileMenu } from "./Components/MobileMenu";
+import { Plants } from "./Components/Plants/Plants";
+import { HowToShop } from "./Components/HowToShop/HowToShop";
+import { MobileMenu } from "./Components/MobileMenu/MobileMenu";
 
  
 function App() {
@@ -35,8 +35,7 @@ export default App
 const AppContainer = styled.div`
   position: relative;
   display: flex;
-  flex-direction: column;
-  
+  flex-direction: column;  
 `;
 
 const CallToActionContainer = styled.div`

@@ -1,19 +1,25 @@
 import { useEffect, useState } from "react";
-import { IPlant } from "../Interfaces";
+import { IPlant, GetResponse } from "../../Interfaces";
 import axios from 'axios';
-import { SaleSection, CardWrapper, PlantCard, PlantInfo  } from "../Styles";
+import { SaleSection, CardWrapper, PlantCard, PlantInfo  } from "./style";
 import Arrow from '/media/arrow.svg'
+import {api} from '../../Services/api'
 
 
 export function Plants() {
 
+    // const { data: plants, loading, error } = api('http://localhost:3333/plants');
+
+    // if(loading) return <p>Loading...</p>
+    // if(error) console.error(error)
+    
     const [plants, setPlants] = useState<IPlant[]>([])
     const [error, setError] = useState({})
 
 
     useEffect(() => {
-        axios.get('http://localhost:3333/plants')
-        .then((response) => {
+        axios.get<GetResponse>('http://localhost:3333/plants')
+        .then((response: any) => {
             setPlants(response.data.plants)
         })
         .catch((err: Error) => {

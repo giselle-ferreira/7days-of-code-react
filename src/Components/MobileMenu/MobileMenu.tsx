@@ -1,6 +1,6 @@
 import { List, X } from "phosphor-react";
 import { useState } from "react";
-import { OpenMenu, CloseMenu, MobileNavigation } from "../Styles";
+import { OpenMenu, CloseMenu, MobileNavigation } from "./style";
 
 
 export function MobileMenu() {

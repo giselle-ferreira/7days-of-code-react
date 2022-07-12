@@ -3,3 +3,7 @@ export interface IPlant {
     price: string,
     image: string
 }
+
+export type GetResponse = {
+    data: IPlant[];
+}

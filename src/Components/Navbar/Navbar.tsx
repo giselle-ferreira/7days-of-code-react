@@ -1,4 +1,4 @@
-import { Header, Menu, Item } from "../Styles";
+import { Header, Menu, Item } from "./style";
 
 export function Navbar() {
     return (

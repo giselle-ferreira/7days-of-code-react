@@ -1,7 +1,7 @@
 import { EnvelopeSimple } from "phosphor-react";
 import { useRef, useState } from "react";
 import styled from "styled-components"
-import { InputWrapper, InputBox, Button} from "../Styles";
+import { InputWrapper, InputBox, Button} from "./style";
 import swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
 

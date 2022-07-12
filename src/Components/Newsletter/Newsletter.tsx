@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { Input } from "./Input"
-import { Text1, Text2, HighlightText } from "../Styles";
+import { Input } from "../Input/Input"
+import { Text1, Text2, HighlightText } from "./style";
 
 export function Newsletter() {
     return(

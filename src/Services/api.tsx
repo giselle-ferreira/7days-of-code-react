@@ -1,10 +1,9 @@
-import axios from 'axios'
-import { useEffect, useState } from 'react'
-import { IPlant } from '../Interfaces'
+import axios from 'axios';
+import { useEffect, useState } from 'react';
 
 export const api = (url: string) => {
 
-    const [data, setData] = useState<IPlant[]>([])
+    const [data, setData] = useState<T | undefined>(null)
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState(null)
 
@@ -12,11 +11,10 @@ export const api = (url: string) => {
         setLoading(true)
 
         axios.get(url)
-        .then((response) => {
+        .then((response: any) => {
             setData(response.data)
         })
-
-        .catch((err) => {
+        .catch((err: any) => {
             setError(err)
         })
         .finally(() => {

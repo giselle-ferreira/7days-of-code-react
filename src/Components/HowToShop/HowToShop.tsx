@@ -1,10 +1,10 @@
-import { ShoppingGuide } from "../Styles";
+import { ShoppingGuide } from "./style";
 import Ellipse from '/media/ellipse.svg'
 
 export function HowToShop() {
     return(
         <ShoppingGuide id="howto">
-            <img src="../../public/media/plant2.png" alt="Folhas grandes verdes" />
+            <img src="/media/plant2.png" alt="Folhas grandes verdes" />
             <div>
                 <p>Como conseguir</p>
                 <h3>minha planta</h3>
