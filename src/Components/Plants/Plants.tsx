@@ -28,7 +28,10 @@ export function Plants() {
                 <h1>Ofertas</h1>
             </div>
             
+            
             <CardWrapper>
+            {!plants && <p>Carregando...</p>}
+
                 {plants?.map((plant: IPlant, key: number) => {
                     return(
                         <PlantCard key={key}>                            
