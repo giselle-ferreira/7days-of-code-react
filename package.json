@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",   
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "serve": "npm run build && vite preview"
@@ -24,6 +24,7 @@
     "sweetalert2": "^11.4.19"
   },
   "devDependencies": {
+    "@import-meta-env/cli": "^0.1.7",
     "@import-meta-env/unplugin": "^0.1.8",
     "@types/node": "^18.0.1",
     "@types/react": "^18.0.0",

@@ -54,3 +54,13 @@ export const Button = styled.button`
         width: 110px;
     }
 `;
+
+export const Container = styled.div`
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+`;
+
+export const Form = styled.form`
+    display: flex;
+`
