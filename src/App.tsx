@@ -8,6 +8,7 @@ import { PlantBg } from "./Styles";
 import { Plants } from "./Components/Plants/Plants";
 import { HowToShop } from "./Components/HowToShop/HowToShop";
 import { MobileMenu } from "./Components/MobileMenu/MobileMenu";
+import { Footer } from "./Components/Footer/Footer";
 
  
 function App() {
@@ -25,6 +26,7 @@ function App() {
         
         <HowToShop />
         <Plants />
+        <Footer />
     </AppContainer>
   )
 }
