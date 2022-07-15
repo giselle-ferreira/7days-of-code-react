@@ -41,6 +41,16 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 
 <br/>
 
+>### #Day5 & #Day6
+<img src="" />
+
+<br/>
+
+>### #Day7
+<img src="" />
+
+<br/>
+
 > ## Author 👋
 
 Made with ❤️ by <a href="https://www.linkedin.com/in/giselleferreiras/" >Giselle Ferreira.</a>
