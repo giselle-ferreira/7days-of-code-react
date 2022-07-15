@@ -1,22 +1,28 @@
 import { useEffect, useState } from "react";
 import { IPlant } from "../../Interfaces";
 import axios from 'axios';
-import { SaleSection, CardWrapper, PlantCard, PlantInfo  } from "./style";
-import Arrow from '/media/arrow.svg'
+import { SaleSection, CardWrapper, PlantCard, PlantInfo, LoadingSpinner  } from "./style";
+import Arrow from '/media/arrow.svg';
+import { SpinnerGap } from "phosphor-react";
 
 
 export function Plants() {
    
     const [plants, setPlants] = useState<IPlant[]>([])
     const [error, setError] = useState({})
+    const [isLoading, setIsLoading] = useState(true)
 
     useEffect(() => {
-        axios.get("https://api-casaverde.herokuapp.com/plants")
+        axios.get(import.meta.env.VITE_BASE_URL)
         .then((response: any) => {
+            setIsLoading(true)
             setPlants(response.data.plants)
         })
         .catch((err: Error) => {
             setError(err)
+        })
+        .finally(() => {
+            setIsLoading(false)
         })
     }, [])
 
@@ -26,11 +32,10 @@ export function Plants() {
             <div>
                 <p>Conheca nossas</p>
                 <h1>Ofertas</h1>
-            </div>
-            
+            </div>            
             
             <CardWrapper>
-            {!plants && <p>Carregando...</p>}
+            {isLoading && <LoadingSpinner><SpinnerGap /></LoadingSpinner>}
 
                 {plants?.map((plant: IPlant, key: number) => {
                     return(

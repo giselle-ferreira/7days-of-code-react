@@ -1,3 +1,4 @@
+import { SpinnerGap } from "phosphor-react";
 import styled from "styled-components";
 import { device  } from '../../Styles'
 
@@ -117,4 +118,15 @@ export const PlantInfo = styled.div`
         margin-left: 25px;
         width: 14px;
     }    
+`;
+
+export const LoadingSpinner = styled(SpinnerGap)`
+    font-size: 42px;
+    color: #555;
+    animation: rotate 2s infinite linear;
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(358deg); }
+    }
 `;

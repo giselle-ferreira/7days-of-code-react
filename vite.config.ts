@@ -8,8 +8,11 @@ export default defineConfig({
     ImportMetaEnvPlugin.vite({
             example: ".env",
           }),
-      react()]
+      react()
+    ]
 })
+
+
 
 
 
