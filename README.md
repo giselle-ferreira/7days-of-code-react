@@ -42,14 +42,20 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <br/>
 
 >### #Day5 & #Day6
-<img src="" />
+<img src="https://i.postimg.cc/xTqcp0CS/dia5-6-7.gif" />
 
 <br/>
 
->### #Day7
-<img src="" />
+>### #Day7 - Deploy
+https://7daysofcode-giselle.vercel.app/
 
 <br/>
+
+>## Additions
+- Developed the API - check the repository https://github.com/giselle-ferreira/7days-of-code-api
+- Added Responsiveness (and a footer :) )
+
+<br />
 
 > ## Author 👋
 
