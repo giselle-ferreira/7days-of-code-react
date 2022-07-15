@@ -11,7 +11,7 @@ export function Plants() {
     const [error, setError] = useState({})
 
     useEffect(() => {
-        axios.get(import.meta.env.API_URI)
+        axios.get("https://api-casaverde.herokuapp.com/plants")
         .then((response: any) => {
             setPlants(response.data.plants)
         })
