@@ -42,7 +42,7 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 <br/>
 
 >### #Day5 & #Day6
-<img src="https://i.postimg.cc/xTqcp0CS/dia5-6-7.gif" />
+<img src="https://i.postimg.cc/Zq58NcsG/day5-6-7.gif" />
 
 <br/>
 
