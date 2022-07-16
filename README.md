@@ -53,7 +53,7 @@ https://7daysofcode-giselle.vercel.app/
 
 >## Additions
 - Developed the API - check the repository https://github.com/giselle-ferreira/7days-of-code-api
-- Added Responsiveness (and a footer :) )
+- Added Responsiveness 
 
 <br />
 
