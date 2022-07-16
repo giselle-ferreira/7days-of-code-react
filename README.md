@@ -36,13 +36,13 @@ The design (figma) is provided by Alura with instructions and tips of what and h
 
 <br/>
 
->### #Day4 - Send emails to the registered emails
+>### #Day4 - Send emails to the registered emails. For that, I used EmailJs
 <img src="https://i.postimg.cc/Kz7HhWKc/dia4.gif" />
 
 <br/>
 
->### #Day5 & #Day6
-<img src="https://i.postimg.cc/Zq58NcsG/day5-6-7.gif" />
+>### #Day5 & #Day6 - connect to an API, so I developed one.
+<img src="https://i.postimg.cc/8PFMTcfS/last-video.gif" />
 
 <br/>
 
